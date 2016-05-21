@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D2004331CEFFF6E0090595F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2004321CEFFF6E0090595F /* AppDelegate.m */; };
+		4D2004361CEFFF6E0090595F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2004351CEFFF6E0090595F /* main.m */; };
+		4D2004391CEFFF6E0090595F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2004381CEFFF6E0090595F /* ViewController.m */; };
+		4D20043B1CEFFF6E0090595F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D20043A1CEFFF6E0090595F /* Assets.xcassets */; };
+		4D20043E1CEFFF6E0090595F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D20043C1CEFFF6E0090595F /* Main.storyboard */; };
+		4D2004491CEFFF6E0090595F /* LyncConnectivityAnalyzerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2004481CEFFF6E0090595F /* LyncConnectivityAnalyzerTests.m */; };
+		4D2004541CEFFF6E0090595F /* LyncConnectivityAnalyzerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2004531CEFFF6E0090595F /* LyncConnectivityAnalyzerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D2004451CEFFF6E0090595F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D2004261CEFFF6E0090595F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D20042D1CEFFF6E0090595F;
+			remoteInfo = LyncConnectivityAnalyzer;
+		};
+		4D2004501CEFFF6E0090595F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D2004261CEFFF6E0090595F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D20042D1CEFFF6E0090595F;
+			remoteInfo = LyncConnectivityAnalyzer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D20042E1CEFFF6E0090595F /* LyncConnectivityAnalyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LyncConnectivityAnalyzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D2004311CEFFF6E0090595F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D2004321CEFFF6E0090595F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D2004351CEFFF6E0090595F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D2004371CEFFF6E0090595F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D2004381CEFFF6E0090595F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D20043A1CEFFF6E0090595F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D20043D1CEFFF6E0090595F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D20043F1CEFFF6E0090595F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D2004441CEFFF6E0090595F /* LyncConnectivityAnalyzerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyncConnectivityAnalyzerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D2004481CEFFF6E0090595F /* LyncConnectivityAnalyzerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LyncConnectivityAnalyzerTests.m; sourceTree = "<group>"; };
+		4D20044A1CEFFF6E0090595F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D20044F1CEFFF6E0090595F /* LyncConnectivityAnalyzerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyncConnectivityAnalyzerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D2004531CEFFF6E0090595F /* LyncConnectivityAnalyzerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LyncConnectivityAnalyzerUITests.m; sourceTree = "<group>"; };
+		4D2004551CEFFF6E0090595F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D20042B1CEFFF6E0090595F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D2004411CEFFF6E0090595F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D20044C1CEFFF6E0090595F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D2004251CEFFF6E0090595F = {
+			isa = PBXGroup;
+			children = (
+				4D2004301CEFFF6E0090595F /* LyncConnectivityAnalyzer */,
+				4D2004471CEFFF6E0090595F /* LyncConnectivityAnalyzerTests */,
+				4D2004521CEFFF6E0090595F /* LyncConnectivityAnalyzerUITests */,
+				4D20042F1CEFFF6E0090595F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D20042F1CEFFF6E0090595F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D20042E1CEFFF6E0090595F /* LyncConnectivityAnalyzer.app */,
+				4D2004441CEFFF6E0090595F /* LyncConnectivityAnalyzerTests.xctest */,
+				4D20044F1CEFFF6E0090595F /* LyncConnectivityAnalyzerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D2004301CEFFF6E0090595F /* LyncConnectivityAnalyzer */ = {
+			isa = PBXGroup;
+			children = (
+				4D2004311CEFFF6E0090595F /* AppDelegate.h */,
+				4D2004321CEFFF6E0090595F /* AppDelegate.m */,
+				4D2004371CEFFF6E0090595F /* ViewController.h */,
+				4D2004381CEFFF6E0090595F /* ViewController.m */,
+				4D20043A1CEFFF6E0090595F /* Assets.xcassets */,
+				4D20043C1CEFFF6E0090595F /* Main.storyboard */,
+				4D20043F1CEFFF6E0090595F /* Info.plist */,
+				4D2004341CEFFF6E0090595F /* Supporting Files */,
+			);
+			path = LyncConnectivityAnalyzer;
+			sourceTree = "<group>";
+		};
+		4D2004341CEFFF6E0090595F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D2004351CEFFF6E0090595F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D2004471CEFFF6E0090595F /* LyncConnectivityAnalyzerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D2004481CEFFF6E0090595F /* LyncConnectivityAnalyzerTests.m */,
+				4D20044A1CEFFF6E0090595F /* Info.plist */,
+			);
+			path = LyncConnectivityAnalyzerTests;
+			sourceTree = "<group>";
+		};
+		4D2004521CEFFF6E0090595F /* LyncConnectivityAnalyzerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D2004531CEFFF6E0090595F /* LyncConnectivityAnalyzerUITests.m */,
+				4D2004551CEFFF6E0090595F /* Info.plist */,
+			);
+			path = LyncConnectivityAnalyzerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D20042D1CEFFF6E0090595F /* LyncConnectivityAnalyzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D2004581CEFFF6E0090595F /* Build configuration list for PBXNativeTarget "LyncConnectivityAnalyzer" */;
+			buildPhases = (
+				4D20042A1CEFFF6E0090595F /* Sources */,
+				4D20042B1CEFFF6E0090595F /* Frameworks */,
+				4D20042C1CEFFF6E0090595F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LyncConnectivityAnalyzer;
+			productName = LyncConnectivityAnalyzer;
+			productReference = 4D20042E1CEFFF6E0090595F /* LyncConnectivityAnalyzer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D2004431CEFFF6E0090595F /* LyncConnectivityAnalyzerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D20045B1CEFFF6E0090595F /* Build configuration list for PBXNativeTarget "LyncConnectivityAnalyzerTests" */;
+			buildPhases = (
+				4D2004401CEFFF6E0090595F /* Sources */,
+				4D2004411CEFFF6E0090595F /* Frameworks */,
+				4D2004421CEFFF6E0090595F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D2004461CEFFF6E0090595F /* PBXTargetDependency */,
+			);
+			name = LyncConnectivityAnalyzerTests;
+			productName = LyncConnectivityAnalyzerTests;
+			productReference = 4D2004441CEFFF6E0090595F /* LyncConnectivityAnalyzerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D20044E1CEFFF6E0090595F /* LyncConnectivityAnalyzerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D20045E1CEFFF6E0090595F /* Build configuration list for PBXNativeTarget "LyncConnectivityAnalyzerUITests" */;
+			buildPhases = (
+				4D20044B1CEFFF6E0090595F /* Sources */,
+				4D20044C1CEFFF6E0090595F /* Frameworks */,
+				4D20044D1CEFFF6E0090595F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D2004511CEFFF6E0090595F /* PBXTargetDependency */,
+			);
+			name = LyncConnectivityAnalyzerUITests;
+			productName = LyncConnectivityAnalyzerUITests;
+			productReference = 4D20044F1CEFFF6E0090595F /* LyncConnectivityAnalyzerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D2004261CEFFF6E0090595F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Rina;
+				TargetAttributes = {
+					4D20042D1CEFFF6E0090595F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4D2004431CEFFF6E0090595F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4D20042D1CEFFF6E0090595F;
+					};
+					4D20044E1CEFFF6E0090595F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4D20042D1CEFFF6E0090595F;
+					};
+				};
+			};
+			buildConfigurationList = 4D2004291CEFFF6E0090595F /* Build configuration list for PBXProject "LyncConnectivityAnalyzer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D2004251CEFFF6E0090595F;
+			productRefGroup = 4D20042F1CEFFF6E0090595F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D20042D1CEFFF6E0090595F /* LyncConnectivityAnalyzer */,
+				4D2004431CEFFF6E0090595F /* LyncConnectivityAnalyzerTests */,
+				4D20044E1CEFFF6E0090595F /* LyncConnectivityAnalyzerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D20042C1CEFFF6E0090595F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D20043B1CEFFF6E0090595F /* Assets.xcassets in Resources */,
+				4D20043E1CEFFF6E0090595F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D2004421CEFFF6E0090595F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D20044D1CEFFF6E0090595F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D20042A1CEFFF6E0090595F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D2004391CEFFF6E0090595F /* ViewController.m in Sources */,
+				4D2004361CEFFF6E0090595F /* main.m in Sources */,
+				4D2004331CEFFF6E0090595F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D2004401CEFFF6E0090595F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D2004491CEFFF6E0090595F /* LyncConnectivityAnalyzerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D20044B1CEFFF6E0090595F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D2004541CEFFF6E0090595F /* LyncConnectivityAnalyzerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D2004461CEFFF6E0090595F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D20042D1CEFFF6E0090595F /* LyncConnectivityAnalyzer */;
+			targetProxy = 4D2004451CEFFF6E0090595F /* PBXContainerItemProxy */;
+		};
+		4D2004511CEFFF6E0090595F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D20042D1CEFFF6E0090595F /* LyncConnectivityAnalyzer */;
+			targetProxy = 4D2004501CEFFF6E0090595F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D20043C1CEFFF6E0090595F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D20043D1CEFFF6E0090595F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D2004561CEFFF6E0090595F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4D2004571CEFFF6E0090595F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4D2004591CEFFF6E0090595F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LyncConnectivityAnalyzer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LyncConnectivityAnalyzer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D20045A1CEFFF6E0090595F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LyncConnectivityAnalyzer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LyncConnectivityAnalyzer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4D20045C1CEFFF6E0090595F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LyncConnectivityAnalyzerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LyncConnectivityAnalyzerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LyncConnectivityAnalyzer.app/Contents/MacOS/LyncConnectivityAnalyzer";
+			};
+			name = Debug;
+		};
+		4D20045D1CEFFF6E0090595F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LyncConnectivityAnalyzerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LyncConnectivityAnalyzerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LyncConnectivityAnalyzer.app/Contents/MacOS/LyncConnectivityAnalyzer";
+			};
+			name = Release;
+		};
+		4D20045F1CEFFF6E0090595F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LyncConnectivityAnalyzerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LyncConnectivityAnalyzerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LyncConnectivityAnalyzer;
+			};
+			name = Debug;
+		};
+		4D2004601CEFFF6E0090595F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LyncConnectivityAnalyzerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LyncConnectivityAnalyzerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LyncConnectivityAnalyzer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D2004291CEFFF6E0090595F /* Build configuration list for PBXProject "LyncConnectivityAnalyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D2004561CEFFF6E0090595F /* Debug */,
+				4D2004571CEFFF6E0090595F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D2004581CEFFF6E0090595F /* Build configuration list for PBXNativeTarget "LyncConnectivityAnalyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D2004591CEFFF6E0090595F /* Debug */,
+				4D20045A1CEFFF6E0090595F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D20045B1CEFFF6E0090595F /* Build configuration list for PBXNativeTarget "LyncConnectivityAnalyzerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D20045C1CEFFF6E0090595F /* Debug */,
+				4D20045D1CEFFF6E0090595F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D20045E1CEFFF6E0090595F /* Build configuration list for PBXNativeTarget "LyncConnectivityAnalyzerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D20045F1CEFFF6E0090595F /* Debug */,
+				4D2004601CEFFF6E0090595F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D2004261CEFFF6E0090595F /* Project object */;
+}
